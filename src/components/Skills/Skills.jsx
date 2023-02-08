@@ -42,7 +42,7 @@ const Skills = () => {
         <motion.section
             initial='hidden'
             whileInView='visible'
-            viewport={{amount: 0.2,once:true}}
+            viewport={{amount: 0.2, once: true}}
             className={s.container}>
 
 
@@ -58,19 +58,20 @@ const Skills = () => {
                 <motion.div
                     initial='hidden'
                     whileInView='visible'
-                    viewport={{amount: 0.2,once:true}}
+                    viewport={{amount: 0.2, once: true}}
                     className={s.skills}>
                     <MCardSkills custom={2} variants={cardAnimation} name={'React'} shortName={'REACT'}
                                  Component={ReactIcon}/>
                     <MCardSkills custom={3} variants={cardAnimation} name={'Redux'} shortName={'REDUX'}
                                  Component={ReduxIcon}/>
-                    <MCardSkills custom={4} variants={cardAnimation} name={'HTML'} shortName={'HTML'} Component={Html}/>
+
                     <MCardSkills custom={5} variants={cardAnimation} name={'TypeScript'} shortName={'TS'}
                                  Component={TypeIcon}/>
                     <MCardSkills custom={6} variants={cardAnimation} name={'JavaScript'} shortName={'JS'}
                                  Component={JavaIcon}/>
                     <MCardSkills custom={7} variants={cardAnimation} name={'Material UI'} shortName={'MUI'}
                                  Component={MaterialIcon}/>
+                    <MCardSkills custom={4} variants={cardAnimation} name={'HTML'} shortName={'HTML'} Component={Html}/>
                     <MCardSkills custom={8} variants={cardAnimation} name={'CSS'} shortName={'CSS'} Component={Css}/>
 
 

@@ -51,7 +51,7 @@ export const CardProject = forwardRef(({
         <div ref={ref} className={s.cardContainer} >
 
 
-            <img src={travel} className={linkMode ? s.img + ' ' + s.imgHover : s.img}
+            <img src={card.img!=''?card.img:travel} className={linkMode ? s.img + ' ' + s.imgHover : s.img}
                  onMouseEnter={() => setLinkMode(true)}
 
 
@@ -61,10 +61,10 @@ export const CardProject = forwardRef(({
                 {/*    <button className={s.link} onClick={onClickCard}>information</button>*/}
 
 
-                <a href='/' className={s.link}>
+                <a href={card.linkDemo} className={s.link} target={"_blank"}>
                     Demo
                 </a>
-                <a href='/' className={s.link}>
+                <a href={card.linkGit} className={s.link} target={"_blank"}>
                     Code
                 </a>
 
