@@ -4,20 +4,26 @@ import s from './Projects.module.css'
 import {MCardProject} from "../CardProject/CardProject";
 import {cardAnimation} from "../Skills/Skills";
 import {motion} from 'framer-motion';
-import cards from '../../assets/fridayproject.gif'
+import cards from '../../assets/friday.png'
+import social from '../../assets/social.png'
+import todo from '../../assets/todo.png'
+import calendar from '../../assets/calendar.png'
 
 const ListCardProject = [
-    {
-        header: 'Travelanywhere', img: '', linkDemo: '', linkGit: '', stack: ''
-    },
     {
         header: 'cards', img: cards, linkDemo: 'https://chub7.github.io/friday-project/', linkGit: 'https://github.com/chub7/friday-project', stack: ''
     },
     {
-        header: 'social', img: '', linkDemo: '', linkGit: '', stack: ''
+        header: 'Travelanywhere', img: '', linkDemo: '', linkGit: '', stack: ''
     },
     {
-        header: 'calendar', img: '', linkDemo: '', linkGit: '', stack: ''
+        header: 'todolist', img:todo, linkDemo: 'https://mariarass.github.io/todolist/', linkGit: 'https://github.com/Mariarass/todolist', stack: ''
+    },
+    {
+        header: 'socialnetwork', img: social, linkDemo: 'https://mariarass.github.io/socialnetwork/#/profile', linkGit: 'https://github.com/Mariarass/socialnetwork', stack: ''
+    },
+    {
+        header: 'calendar', img:calendar, linkDemo: 'https://mariarass.github.io/calendar/', linkGit: 'https://github.com/Mariarass/calendar', stack: ''
     },
 ]
 const Projects = () => {

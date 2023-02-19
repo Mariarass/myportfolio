@@ -3,6 +3,7 @@ import s from './Skills.module.css'
 import {MCardSkills} from "../CardSkills/CardSkills";
 import {motion} from 'framer-motion'
 import {ReactComponent as ReactIcon} from '../../assets/react.svg'
+import {ReactComponent as ReduxToolkit} from '../../assets/redux-icon.svg'
 import {ReactComponent as ReduxIcon} from '../../assets/redux.svg'
 import {ReactComponent as TypeIcon} from '../../assets/typescript.svg'
 import {ReactComponent as JavaIcon} from '../../assets/javascript.svg'
@@ -45,7 +46,6 @@ const Skills = () => {
             viewport={{amount: 0.2, once: true}}
             className={s.container}>
 
-
             <div className={s.skillsContainer} id={'skills'}>
                 <div className={s.headerContainer}>
                     <motion.h3 custom={1} variants={cardAnimation} className={s.header}>
@@ -64,6 +64,8 @@ const Skills = () => {
                                  Component={ReactIcon}/>
                     <MCardSkills custom={3} variants={cardAnimation} name={'Redux'} shortName={'REDUX'}
                                  Component={ReduxIcon}/>
+                    <MCardSkills custom={4} variants={cardAnimation} name={'Redux Toolkit'} shortName={'REDUX-TOOLKIT'}
+                                 Component={ReduxToolkit}/>
 
                     <MCardSkills custom={5} variants={cardAnimation} name={'TypeScript'} shortName={'TS'}
                                  Component={TypeIcon}/>
@@ -71,8 +73,8 @@ const Skills = () => {
                                  Component={JavaIcon}/>
                     <MCardSkills custom={7} variants={cardAnimation} name={'Material UI'} shortName={'MUI'}
                                  Component={MaterialIcon}/>
-                    <MCardSkills custom={4} variants={cardAnimation} name={'HTML'} shortName={'HTML'} Component={Html}/>
-                    <MCardSkills custom={8} variants={cardAnimation} name={'CSS'} shortName={'CSS'} Component={Css}/>
+                    <MCardSkills custom={8} variants={cardAnimation} name={'HTML'} shortName={'HTML'} Component={Html}/>
+                    <MCardSkills custom={9} variants={cardAnimation} name={'CSS'} shortName={'CSS'} Component={Css}/>
 
 
                 </motion.div>
