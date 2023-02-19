@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.f1fadf6e.css",
-    "main.js": "/myportfolio/static/js/main.bedaa5b2.js",
+    "main.js": "/myportfolio/static/js/main.19694c79.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/photoofme.jpg": "/myportfolio/static/media/photoofme.4ad4fe32dc9609c2dd4e.jpg",
+    "static/media/planer.png": "/myportfolio/static/media/planer.860ce7db6a4d8ea34818.png",
     "static/media/social.png": "/myportfolio/static/media/social.08c4ec7bf6cde5348f10.png",
     "static/media/travel.png": "/myportfolio/static/media/travel.804ef1109baf9c3ff361.png",
     "static/media/calendar.png": "/myportfolio/static/media/calendar.99035cea1e234d576162.png",
     "static/media/Frame2.svg": "/myportfolio/static/media/Frame2.52010e732600548f566a.svg",
     "static/media/friday.png": "/myportfolio/static/media/friday.521573c1db8f11495665.png",
     "static/media/matrixFont.ttf": "/myportfolio/static/media/matrixFont.77b36b5eb15b0d99bd9a.ttf",
+    "static/media/button.png": "/myportfolio/static/media/button.e8c688d46eaca916ce00.png",
     "static/media/todo.png": "/myportfolio/static/media/todo.ea89573c2c604b75a38d.png",
     "static/media/react.svg": "/myportfolio/static/media/react.cad3ac6bf03d54937070bedc185ee9f4.svg",
     "static/media/redux.svg": "/myportfolio/static/media/redux.4feacef5490957875bee3b2f2d63aed0.svg",
@@ -25,11 +27,11 @@
     "static/media/linked.svg": "/myportfolio/static/media/linked.f5d65bcc93188d29cbf2c6d865e45dec.svg",
     "static/media/email.svg": "/myportfolio/static/media/email.4f520c286581c7e59dfad73517871174.svg",
     "main.f1fadf6e.css.map": "/myportfolio/static/css/main.f1fadf6e.css.map",
-    "main.bedaa5b2.js.map": "/myportfolio/static/js/main.bedaa5b2.js.map",
+    "main.19694c79.js.map": "/myportfolio/static/js/main.19694c79.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1fadf6e.css",
-    "static/js/main.bedaa5b2.js"
+    "static/js/main.19694c79.js"
   ]
 }
