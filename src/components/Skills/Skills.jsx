@@ -11,21 +11,7 @@ import {ReactComponent as MaterialIcon} from '../../assets/material.svg'
 import {ReactComponent as Html} from '../../assets/html.svg'
 import {ReactComponent as Css} from '../../assets/css.svg'
 
-const textAnimation = {
-    hidden: {
-        x: -100,
-        opacity: 0
-    },
-    visible: (custom) => ({
-        x: 0,
-        opacity: 1,
-        transition: {
-            delay: custom * 0.2,
-            ease: "linear",
-            duration: 2
-        }
-    })
-}
+
 export const cardAnimation = {
     hidden: {
         y: 50,
@@ -38,7 +24,7 @@ export const cardAnimation = {
     })
 }
 
-const Skills = () => {
+export const Skills = () => {
     return (
         <motion.section
             initial='hidden'
@@ -84,4 +70,3 @@ const Skills = () => {
         ;
 };
 
-export default Skills;

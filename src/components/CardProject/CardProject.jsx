@@ -1,9 +1,39 @@
-import React, {createRef, FC, forwardRef, useRef, useState} from 'react';
+import React, {forwardRef, useState} from 'react';
 import s from './CardProject.module.css'
 import styled from "styled-components";
 import travel from '../../assets/travel.png'
 import {motion} from "framer-motion";
 
+
+export const CardProject = forwardRef(({card
+                                       }, ref) => {
+
+    const [linkMode, setLinkMode] = useState(false)
+
+    return (
+        <div ref={ref} className={s.cardContainer}>
+
+            <img src={card.img != '' ? card.img : travel} className={linkMode ? s.img + ' ' + s.imgHover : s.img}
+                 onMouseEnter={() => setLinkMode(true)}
+
+            />
+            {linkMode && <LinkContainer showed={linkMode}
+                                        onMouseLeave={() => setLinkMode(false)}>
+                <a href={card.linkDemo} className={s.link} target={"_blank"}>
+                    Demo
+                </a>
+                <a href={card.linkGit} className={s.link} target={"_blank"}>
+                    Code
+                </a>
+
+            </LinkContainer>}
+
+
+        </div>
+    );
+})
+
+export const MCardProject = motion(CardProject)
 
 const LinkContainer = styled.div`
   display: ${props => (props.showed ? 'flex' : 'none')};;
@@ -37,42 +67,3 @@ const LinkContainer = styled.div`
 
 `
 
-
-
-export const CardProject = forwardRef(({
-                                                                card
-                                                            }, ref) => {
-
-    const [linkMode, setLinkMode] = useState(false)
-
-
-    return (
-
-        <div ref={ref} className={s.cardContainer} >
-
-
-            <img src={card.img!=''?card.img:travel} className={linkMode ? s.img + ' ' + s.imgHover : s.img}
-                 onMouseEnter={() => setLinkMode(true)}
-
-
-            />
-            {linkMode && <LinkContainer showed={linkMode}
-                                        onMouseLeave={() => setLinkMode(false)}>
-                {/*    <button className={s.link} onClick={onClickCard}>information</button>*/}
-
-
-                <a href={card.linkDemo} className={s.link} target={"_blank"}>
-                    Demo
-                </a>
-                <a href={card.linkGit} className={s.link} target={"_blank"}>
-                    Code
-                </a>
-
-            </LinkContainer>}
-
-
-        </div>
-    );
-})
-
-export const MCardProject = motion(CardProject)

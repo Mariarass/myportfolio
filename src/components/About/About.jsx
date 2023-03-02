@@ -1,42 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import s from './About.module.css'
-
 import MatrixRain from "./MatrixRain/MatrixRain";
 import me from '../../assets/photoofme.jpg'
 import {motion} from 'framer-motion';
-export const imgAnimation = {
-    hidden: {
+import {imgAnimation, animation} from "../../utils/animation/animation";
 
-        opacity: 0,
-        scale: 0.9
 
-    },
-    visible: (custom) => ({
-
-        opacity: 1,
-        transition: {delay: custom * 0.1},
-        scale: 1
-
-    })
-}
-
-export const textAnimation = {
-    hidden: {
-        y: 50,
-
-        opacity: 0,
-
-    },
-    visible: (custom) => ({
-        y: 0,
-        opacity: 1,
-        transition: {delay: custom * 0.1},
-
-    })
-}
-
-const About = () => {
-
+export const About = () => {
 
     return (
         <div className={s.matrixContainer}>
@@ -52,7 +22,7 @@ const About = () => {
                 </motion.div>
 
                 <motion.div className={s.code}
-                            variants={textAnimation} custom={2}>
+                            variants={animation} custom={2}>
                     <p><span className={s.pink}>{'<span>'}</span> Hi!<span
                         className={s.pink}>{'</span>'}</span></p>
                     <p><span className={s.pink}>{' <h3>'}</span>I`m Maria <span
@@ -68,5 +38,3 @@ const About = () => {
 
     );
 };
-
-export default About;

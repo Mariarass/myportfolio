@@ -1,4 +1,4 @@
-import React, {forwardRef, ReactNode, SVGProps} from 'react';
+import React, {forwardRef} from 'react';
 import './CardSkills.scss'
 import {motion} from "framer-motion";
 
