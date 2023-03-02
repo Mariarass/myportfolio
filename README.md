@@ -15,7 +15,7 @@ What technology stack do I know
 
 ## Projects included in the portfolio
 * [Card training](https://github.com/chub7/friday-project)
-* [Website for tours](https://github.com/Mariarass/travelanywhere)
+* [Website for tours](https://github.com/Mariarass/travelanywherekeyweb)
 * [Todo list](https://github.com/Mariarass/todolist)
 * [Social network](https://github.com/Mariarass/socialnetwork)
 * [Calendar](https://github.com/Mariarass/calendar)
