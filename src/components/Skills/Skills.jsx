@@ -10,6 +10,7 @@ import {ReactComponent as JavaIcon} from '../../assets/javascript.svg'
 import {ReactComponent as MaterialIcon} from '../../assets/material.svg'
 import {ReactComponent as Html} from '../../assets/html.svg'
 import {ReactComponent as Css} from '../../assets/css.svg'
+import {ReactComponent as Ant} from '../../assets/ant-design.svg'
 
 
 export const cardAnimation = {
@@ -59,8 +60,10 @@ export const Skills = () => {
                                  Component={JavaIcon}/>
                     <MCardSkills custom={7} variants={cardAnimation} name={'Material UI'} shortName={'MUI'}
                                  Component={MaterialIcon}/>
-                    <MCardSkills custom={8} variants={cardAnimation} name={'HTML'} shortName={'HTML'} Component={Html}/>
-                    <MCardSkills custom={9} variants={cardAnimation} name={'CSS'} shortName={'CSS'} Component={Css}/>
+                    <MCardSkills custom={8} variants={cardAnimation} name={'AntDesign'} shortName={'AD'}
+                                 Component={Ant}/>
+                    <MCardSkills custom={9} variants={cardAnimation} name={'HTML'} shortName={'HTML'} Component={Html}/>
+                    <MCardSkills custom={10} variants={cardAnimation} name={'CSS'} shortName={'CSS'} Component={Css}/>
 
 
                 </motion.div>

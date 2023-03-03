@@ -13,12 +13,13 @@ export const Footer = () => {
                     MY CONTACTS
                 </h2>
                 <div className={s.iconContainer}>
-                    <div><a href={'/'} className={s.link}><p className={s.svg}>CV</p></a></div>
-                    <div><a href={'https://github.com/Mariarass?tab=repositories'} target={"_blank"} >
+                    <div><a href={require('../../assets/mycv.pdf')}  target={"_blank"} className={s.link}><p className={s.svg}>CV</p></a></div>
+                    <div><a href={'https://github.com/Mariarass'} target={"_blank"}>
                         <Git className={s.svg}/></a></div>
-                    <div><a href={'/'} ><Linked className={s.svg}/></a></div>
-                    <div><a href={'/'}><Telegram className={s.svg}/></a></div>
-                    <div><a href={'/'} ><Email className={s.svg}/></a></div>
+                    <div><a href={'https://www.linkedin.com/in/maria-raspopova-992a77263/'} target={"_blank"}><Linked
+                        className={s.svg}/></a></div>
+                    <div><a href={'https://t.me/mariamaria0011'}  target={"_blank"}><Telegram className={s.svg}/></a></div>
+                    <div><a className="mailtoui" href="mailto:mariarass2001@gmail.com"><Email className={s.svg}/></a></div>
 
                 </div>
 

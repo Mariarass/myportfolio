@@ -5,7 +5,6 @@ import me from '../../assets/photoofme.jpg'
 import {motion} from 'framer-motion';
 import {imgAnimation, animation} from "../../utils/animation/animation";
 
-
 export const About = () => {
 
     return (
@@ -14,15 +13,14 @@ export const About = () => {
             <motion.div className={s.container} id='main' initial='hidden'
                         whileInView='visible'
                         viewport={{once: true}}>
+
                 <motion.div className={s.imgContainer} custom={1} variants={imgAnimation}>
                     <div className={s.circle}>
                     </div>
-                    <img src={me} className={s.img}/>
-
+                    <img src={me} className={s.img} alt='my photo'/>
                 </motion.div>
 
-                <motion.div className={s.code}
-                            variants={animation} custom={2}>
+                <motion.div className={s.code} variants={animation} custom={2}>
                     <p><span className={s.pink}>{'<span>'}</span> Hi!<span
                         className={s.pink}>{'</span>'}</span></p>
                     <p><span className={s.pink}>{' <h3>'}</span>I`m Maria <span
@@ -31,6 +29,8 @@ export const About = () => {
                         developer <span
                             className={s.pink}>{'</p>'}</span></p>
                 </motion.div>
+
+
             </motion.div>
 
         </div>
