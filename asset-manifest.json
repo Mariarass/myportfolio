@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.f1fadf6e.css",
-    "main.js": "/myportfolio/static/js/main.5b1b9fbb.js",
+    "main.css": "/myportfolio/static/css/main.34590792.css",
+    "main.js": "/myportfolio/static/js/main.77283ac8.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/travelany.png": "/myportfolio/static/media/travelany.7c3a440b1648273e9f70.png",
     "static/media/photoofme.jpg": "/myportfolio/static/media/photoofme.4ad4fe32dc9609c2dd4e.jpg",
     "static/media/planer.png": "/myportfolio/static/media/planer.860ce7db6a4d8ea34818.png",
+    "static/media/mycv.pdf": "/myportfolio/static/media/mycv.caac62862c3e01a88979.pdf",
     "static/media/social.png": "/myportfolio/static/media/social.08c4ec7bf6cde5348f10.png",
     "static/media/travel.png": "/myportfolio/static/media/travel.804ef1109baf9c3ff361.png",
     "static/media/calendar.png": "/myportfolio/static/media/calendar.99035cea1e234d576162.png",
@@ -27,12 +28,12 @@
     "static/media/css.svg": "/myportfolio/static/media/css.b6d54ce4b5d0f90529d44064c16cc9ad.svg",
     "static/media/linked.svg": "/myportfolio/static/media/linked.f5d65bcc93188d29cbf2c6d865e45dec.svg",
     "static/media/email.svg": "/myportfolio/static/media/email.4f520c286581c7e59dfad73517871174.svg",
-    "main.f1fadf6e.css.map": "/myportfolio/static/css/main.f1fadf6e.css.map",
-    "main.5b1b9fbb.js.map": "/myportfolio/static/js/main.5b1b9fbb.js.map",
+    "main.34590792.css.map": "/myportfolio/static/css/main.34590792.css.map",
+    "main.77283ac8.js.map": "/myportfolio/static/js/main.77283ac8.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1fadf6e.css",
-    "static/js/main.5b1b9fbb.js"
+    "static/css/main.34590792.css",
+    "static/js/main.77283ac8.js"
   ]
 }
