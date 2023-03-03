@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.34590792.css",
-    "main.js": "/myportfolio/static/js/main.77283ac8.js",
+    "main.js": "/myportfolio/static/js/main.2b7ff654.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/travelany.png": "/myportfolio/static/media/travelany.7c3a440b1648273e9f70.png",
     "static/media/photoofme.jpg": "/myportfolio/static/media/photoofme.4ad4fe32dc9609c2dd4e.jpg",
@@ -21,6 +21,7 @@
     "static/media/redux-icon.svg": "/myportfolio/static/media/redux-icon.04851e4f576287d685ab7afb5e4717a9.svg",
     "static/media/typescript.svg": "/myportfolio/static/media/typescript.32da652b7325a8189f4f9c12ffd06650.svg",
     "static/media/git.svg": "/myportfolio/static/media/git.4cd3a2bc790226c346ae943ec1622139.svg",
+    "static/media/ant-design.svg": "/myportfolio/static/media/ant-design.2e1b9d8c33f6126498e773de37f3a1d5.svg",
     "index.html": "/myportfolio/index.html",
     "static/media/html.svg": "/myportfolio/static/media/html.a0ecb4dcff24b209e86679c70f970e19.svg",
     "static/media/telegram.svg": "/myportfolio/static/media/telegram.d1d5b65828f3230b95bd093aa43703c9.svg",
@@ -29,11 +30,11 @@
     "static/media/linked.svg": "/myportfolio/static/media/linked.f5d65bcc93188d29cbf2c6d865e45dec.svg",
     "static/media/email.svg": "/myportfolio/static/media/email.4f520c286581c7e59dfad73517871174.svg",
     "main.34590792.css.map": "/myportfolio/static/css/main.34590792.css.map",
-    "main.77283ac8.js.map": "/myportfolio/static/js/main.77283ac8.js.map",
+    "main.2b7ff654.js.map": "/myportfolio/static/js/main.2b7ff654.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34590792.css",
-    "static/js/main.77283ac8.js"
+    "static/js/main.2b7ff654.js"
   ]
 }
