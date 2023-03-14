@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.34590792.css",
-    "main.js": "/myportfolio/static/js/main.2b7ff654.js",
+    "main.js": "/myportfolio/static/js/main.4bb5078e.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/travelany.png": "/myportfolio/static/media/travelany.7c3a440b1648273e9f70.png",
     "static/media/photoofme.jpg": "/myportfolio/static/media/photoofme.4ad4fe32dc9609c2dd4e.jpg",
+    "static/media/insta.png": "/myportfolio/static/media/insta.f916b675c099ff8b5738.png",
     "static/media/planer.png": "/myportfolio/static/media/planer.860ce7db6a4d8ea34818.png",
     "static/media/mycv.pdf": "/myportfolio/static/media/mycv.caac62862c3e01a88979.pdf",
     "static/media/social.png": "/myportfolio/static/media/social.08c4ec7bf6cde5348f10.png",
+    "static/media/pokemon.png": "/myportfolio/static/media/pokemon.c2266ed6ae43ce549e7f.png",
     "static/media/travel.png": "/myportfolio/static/media/travel.804ef1109baf9c3ff361.png",
     "static/media/calendar.png": "/myportfolio/static/media/calendar.99035cea1e234d576162.png",
     "static/media/Frame2.svg": "/myportfolio/static/media/Frame2.52010e732600548f566a.svg",
@@ -30,11 +32,11 @@
     "static/media/linked.svg": "/myportfolio/static/media/linked.f5d65bcc93188d29cbf2c6d865e45dec.svg",
     "static/media/email.svg": "/myportfolio/static/media/email.4f520c286581c7e59dfad73517871174.svg",
     "main.34590792.css.map": "/myportfolio/static/css/main.34590792.css.map",
-    "main.2b7ff654.js.map": "/myportfolio/static/js/main.2b7ff654.js.map",
+    "main.4bb5078e.js.map": "/myportfolio/static/js/main.4bb5078e.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34590792.css",
-    "static/js/main.2b7ff654.js"
+    "static/js/main.4bb5078e.js"
   ]
 }
