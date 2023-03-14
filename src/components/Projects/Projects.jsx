@@ -9,6 +9,9 @@ import calendar from '../../assets/calendar.png'
 import planer from '../../assets/planer.png'
 import button from '../../assets/button.png'
 import travel from '../../assets/travelany.png'
+import insta from '../../assets/insta.png'
+import pokemon from '../../assets/pokemon.png'
+
 import {animation} from "../../utils/animation/animation";
 
 
@@ -70,6 +73,20 @@ const ListCardProject = [
         img: todo,
         linkDemo: 'https://mariarass.github.io/todolist/',
         linkGit: 'https://github.com/Mariarass/todolist',
+        stack: ''
+    },
+    {
+        header: 'instagram',
+        img: insta,
+        linkDemo: 'https://mariarass.github.io/insta/',
+        linkGit: 'https://github.com/Mariarass/insta',
+        stack: ''
+    },
+    {
+        header: 'pokemon',
+        img: pokemon,
+        linkDemo: 'https://mariarass.github.io/pokemon/',
+        linkGit: 'https://github.com/Mariarass/pokemon',
         stack: ''
     },
     {
