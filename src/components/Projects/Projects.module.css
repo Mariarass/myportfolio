@@ -2,7 +2,7 @@
     background-color: var(--dark);
     min-height: 100%;
 
-    padding-bottom: 60px;
+    padding-bottom: 150px;
     padding-top: 30px;
 
 
@@ -11,7 +11,7 @@
 
 .projectContainer {
 
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 
 }
@@ -28,8 +28,11 @@
 
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 400px;
+    margin-top: 60px;
+
 }
 
 .header {
@@ -43,5 +46,12 @@
     color: white;
     margin: 0;
     text-align: start;
+
+}
+@media (max-width: 920px) {
+
+ .skills{
+     gap: 200px;
+ }
 
 }
